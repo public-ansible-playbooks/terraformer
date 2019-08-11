@@ -1,11 +1,14 @@
-# create ansible user
+# Create ansible user
 - src: git+git@github.com:public-ansible-roles/create-ansible-user.git
 
-# configure sshd
+# Configure sshd
 - src: git+git@github.com:public-ansible-roles/sshd.git
 
 # Install common packages for all
 - src: git+git@github.com:public-ansible-roles/common.git
+
+# Install azure-cli
+- src: git+git@github.com:public-ansible-roles/azure-cli.git
 
 # Install terraform
 - src: git+git@github.com:public-ansible-roles/terraform.git

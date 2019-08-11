@@ -12,4 +12,5 @@
   roles:
     - sshd
     - common
+    - azure-cli
     - terraform
