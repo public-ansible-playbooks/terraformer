@@ -11,4 +11,5 @@
   remote_user: ansible
   roles:
     - sshd
+    - common
     - terraform
