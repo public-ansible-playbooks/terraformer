@@ -13,4 +13,5 @@
     - sshd
     - common
     - azure-cli
+    - create-terraform-user
     - terraform

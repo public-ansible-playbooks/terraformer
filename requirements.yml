@@ -10,6 +10,9 @@
 # Install azure-cli
 - src: git+git@github.com:public-ansible-roles/azure-cli.git
 
+# Create terraform user
+- src: git+git@github.com:public-ansible-roles/create-terraform-user.git
+
 # Install terraform
 - src: git+git@github.com:public-ansible-roles/terraform.git
 
